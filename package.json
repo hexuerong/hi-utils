@@ -1,10 +1,21 @@
 {
+	"type": "module",
 	"name": "@hi-zeer/hi-utils",
 	"version": "1.0.0",
+	"keywords": [
+		"TypeScript",
+		"ES6",
+		"utils"
+	],
 	"description": "工具函数库包",
 	"main": "index.js",
 	"scripts": {
+		"preinstall": "npx only-allow yarn",
 		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"packageManager": "yarn@1.22.22",
+	"engines": {
+		"node": ">=22.11.0"
 	},
 	"private": "false",
 	"author": "hexuerong",
@@ -12,5 +23,8 @@
 		"type": "git",
 		"url": "https://github.com/hexuerong/hi-utils.git"
 	},
-	"license": "ISC"
+	"license": "MIT",
+	"devDependencies": {
+		"only-allow": "^1.2.1"
+	}
 }
