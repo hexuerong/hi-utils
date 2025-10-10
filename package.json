@@ -1,0 +1,16 @@
+{
+	"name": "@hi-zeer/hi-utils",
+	"version": "1.0.0",
+	"description": "工具函数库包",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"private": "false",
+	"author": "hexuerong",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hexuerong/hi-utils.git"
+	},
+	"license": "ISC"
+}
