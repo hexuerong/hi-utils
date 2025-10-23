@@ -1,9 +1,9 @@
 {
-	"compilerOptions": {
-		"declaration": true,
-		"emitDeclarationOnly": true,
-		"declarationDir": "dist/types"
-	},
-	"include": ["lib/*.ts", "lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx"],
-	"exclude": ["node_modules"]
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist/types"
+  },
+  "include": ["lib/*.ts", "lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx"],
+  "exclude": ["node_modules"]
 }
