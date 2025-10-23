@@ -19,8 +19,7 @@
 		"dev": "vite",
 		"preview": "vite preview",
 		"build:test": "vite build --mode test",
-		"build": "vite build && tsc -p tsconfig.json",
-		"tsc-build": "vue-tsc -b && vite build",
+		"build": "vite build && npx tsc -p tsconfig.json",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"packageManager": "yarn@1.22.22",
