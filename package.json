@@ -8,9 +8,19 @@
 		"utils"
 	],
 	"description": "工具函数库包",
-	"main": "index.js",
+	"main": "dist/my-package.umd.js",
+	"module": "dist/my-package.es.js",
+	"types": "dist/types/index.d.ts",
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"preinstall": "npx only-allow yarn",
+		"dev": "vite",
+		"preview": "vite preview",
+		"build:test": "vite build --mode test",
+		"build": "vite build && tsc -p tsconfig.json",
+		"tsc-build": "vue-tsc -b && vite build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"packageManager": "yarn@1.22.22",
@@ -25,6 +35,7 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"only-allow": "^1.2.1"
+		"only-allow": "^1.2.1",
+		"vite": "^7.1.11"
 	}
 }
